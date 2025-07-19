@@ -1,2 +1,0 @@
-campaigns: node persistentCampaign.js
-sequences: node sequenceAutomation.js
