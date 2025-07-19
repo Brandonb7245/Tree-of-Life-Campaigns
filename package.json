@@ -1,0 +1,20 @@
+{
+  "name": "tree-of-life-campaigns",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "main": "persistentCampaign.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node persistentCampaign.js",
+    "campaigns": "node persistentCampaign.js",
+    "sequences": "node sequenceAutomation.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "drizzle-orm": "^0.39.1",
+    "resend": "^3.5.0"
+  }
+}
